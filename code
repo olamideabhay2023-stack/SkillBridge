@@ -1,0 +1,121 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<link rel="stylesheet" href="home.css">
+  <title>SkillBridge NG</title>
+<body>
+
+  <header>
+    <h1>SkillBridge NG</h1>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#services">Services</a>
+      <a href="#objectives">Objectives</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Connecting Skilled Nigerian Students With Opportunities</h2>
+
+      <p>
+        SkillBridge NG helps students earn income through their talents and
+        digital skills while providing affordable and reliable services to customers and businesses.
+      </p>
+
+      <a href="#" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="section-title">
+      <h2>Our Services</h2>
+    </div>
+
+    <div class="services">
+
+      <div class="card">
+        <h3>Graphic Design</h3>
+        <p>
+          Creative branding, flyers, logos, and social media designs for businesses and individuals.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Web Development</h3>
+        <p>
+          Professional website design and development solutions for startups and businesses.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Video Editing</h3>
+        <p>
+          High-quality video editing services for content creators and organizations.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Academic Tutoring</h3>
+        <p>
+          Helping students succeed academically through personalized tutoring services.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Content Writing</h3>
+        <p>
+          Engaging and professional content creation for blogs, brands, and businesses.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Social Media Management</h3>
+        <p>
+          Managing and growing online presence for brands and entrepreneurs.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="objectives" id="objectives">
+    <div class="section-title">
+      <h2>Our Objectives</h2>
+    </div>
+
+    <ul>
+      <li>Reduce unemployment among students.</li>
+      <li>Create a reliable platform for skill monetization.</li>
+      <li>Help students gain practical work experience.</li>
+      <li>Provide affordable digital services to customers.</li>
+      <li>Promote entrepreneurship and innovation among youths.</li>
+    </ul>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="section-title">
+      <h2>Contact Us</h2>
+    </div>
+
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="6" placeholder="Your Message"></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 SkillBridge NG | Empowering Nigerian Students Through Digital Skills</p>
+  </footer>
+
+</body>
+</html>
+</body>
+</html>
