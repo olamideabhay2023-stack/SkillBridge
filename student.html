@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Find Skills | SkillBridge</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <div class="logo">
+        Skill<span>Bridge</span>
+    </div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="students.html">Find Skills</a>
+        <a href="#categories">Categories</a>
+    </nav>
+
+    <div class="nav-buttons">
+        <a href="login.html" class="login-btn">Login</a>
+        <a href="register.html" class="primary-btn">
+            Join SkillBridge
+        </a>
+    </div>
+
+</header>
+
+
+<main class="marketplace">
+
+    <section class="marketplace-header">
+
+        <span>SKILLBRIDGE MARKETPLACE</span>
+
+        <h1>Find the right student for your project</h1>
+
+        <p>
+            Discover talented students offering affordable professional
+            services.
+        </p>
+
+    </section>
+
+
+    <!-- SEARCH -->
+
+    <section class="search-section">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search for a skill e.g. Web Developer..."
+        >
+
+        <select id="categoryFilter">
+
+            <option value="all">
+                All Categories
+            </option>
+
+            <option value="Web Development">
+                Web Development
+            </option>
+
+            <option value="Graphic Design">
+                Graphic Design
+            </option>
+
+            <option value="Video Editing">
+                Video Editing
+            </option>
+
+            <option value="Content Writing">
+                Content Writing
+            </option>
+
+            <option value="Data Analysis">
+                Data Analysis
+            </option>
+
+            <option value="Tutoring">
+                Academic Tutoring
+            </option>
+
+        </select>
+
+    </section>
+
+
+    <!-- STUDENT CARDS -->
+
+    <section class="students-section">
+
+        <div class="marketplace-top">
+
+            <h2>Available Talents</h2>
+
+            <span id="studentCount">
+                6 talents found
+            </span>
+
+        </div>
+
+
+        <div id="studentGrid" class="student-grid">
+
+
+            <!-- STUDENT 1 -->
+
+            <div
+                class="student-card"
+                data-name="Abiodun Olamide"
+                data-skill="Web Development"
+            >
+
+                <div class="student-avatar">
+                    AO
+                </div>
+
+                <div class="verified">
+                    ✓ Verified
+                </div>
+
+                <h3>
+                    Abiodun Olamide
+                </h3>
+
+                <p class="student-role">
+                    Web Developer
+                </p>
+
+                <div class="rating">
+                    ⭐ 4.9
+                    <span>(12 reviews)</span>
+                </div>
+
+                <p class="student-description">
+                    I build responsive websites using HTML, CSS
+                    and JavaScript.
+                </p>
+
+                <div class="skills">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+
+                </div>
+
+                <div class="student-bottom">
+
+                    <div>
+                        <small>Starting from</small>
+                        <strong>₦15,000</strong>
+                    </div>
+
+                    <button
+                        onclick="viewProfile('Abiodun Olamide')"
+                    >
+                        View Profile
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- STUDENT 2 -->
+
+            <div
+                class="student-card"
+                data-name="David Johnson"
+                data-skill="Graphic Design"
+            >
+
+                <div class="student-avatar">
+                    DJ
+                </div>
+
+                <div class="verified">
+                    ✓ Verified
+                </div>
+
+                <h3>
+                    David Johnson
+                </h3>
+
+                <p class="student-role">
+                    Graphic Designer
+                </p>
+
+                <div class="rating">
+                    ⭐ 4.8
+                    <span>(18 reviews)</span>
+                </div>
+
+                <p class="student-description">
+                    I create logos, flyers, social media designs
+                    and brand identities.
+                </p>
+
+                <div class="skills">
+
+                    <span>Photoshop</span>
+                    <span>Canva</span>
+                    <span>Branding</span>
+
+                </div>
+
+                <div class="student-bottom">
+
+                    <div>
+                        <small>Starting from</small>
+                        <strong>₦8,000</strong>
+                    </div>
+
+                    <button
+                        onclick="viewProfile('David Johnson')"
+                    >
+                        View Profile
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- STUDENT 3 -->
+
+            <div
+                class="student-card"
+                data-name="Blessing Ade"
+                data-skill="Video Editing"
+            >
+
+                <div class="student-avatar">
+                    BA
+                </div>
+
+                <div class="verified">
+                    ✓ Verified
+                </div>
+
+                <h3>
+                    Blessing Ade
+                </h3>
+
+                <p class="student-role">
+                    Video Editor
+                </p>
+
+                <div class="rating">
+                    ⭐ 4.9
+                    <span>(25 reviews)</span>
+                </div>
+
+                <p class="student-description">
+                    I edit TikTok videos, YouTube videos,
+                    adverts and promotional content.
+                </p>
+
+                <div class="skills">
+
+                    <span>CapCut</span>
+                    <span>Premiere Pro</span>
+
+                </div>
+
+                <div class="student-bottom">
+
+                    <div>
+                        <small>Starting from</small>
+                        <strong>₦10,000</strong>
+                    </div>
+
+                    <button
+                        onclick="viewProfile('Blessing Ade')"
+                    >
+                        View Profile
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- STUDENT 4 -->
+
+            <div
+                class="student-card"
+                data-name="Michael Adekunle"
+                data-skill="Data Analysis"
+            >
+
+                <div class="student-avatar">
+                    MA
+                </div>
+
+                <div class="verified">
+                    ✓ Verified
+                </div>
+
+                <h3>
+                    Michael Adekunle
+                </h3>
+
+                <p class="student-role">
+                    Data Analyst
+                </p>
+
+                <div class="rating">
+                    ⭐ 4.7
+                    <span>(9 reviews)</span>
+                </div>
+
+                <p class="student-description">
+                    I analyse data and create reports,
+                    dashboards and visualisations.
+                </p>
+
+                <div class="skills">
+
+                    <span>Excel</span>
+                    <span>Python</span>
+                    <span>SPSS</span>
+
+                </div>
+
+                <div class="student-bottom">
+
+                    <div>
+                        <small>Starting from</small>
+                        <strong>₦20,000</strong>
+                    </div>
+
+                    <button
+                        onclick="viewProfile('Michael Adekunle')"
+                    >
+                        View Profile
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- STUDENT 5 -->
+
+            <div
+                class="student-card"
+                data-name="Sarah Williams"
+                data-skill="Content Writing"
+            >
+
+                <div class="student-avatar">
+                    SW
+                </div>
+
+                <div class="verified">
+                    ✓ Verified
+                </div>
+
+                <h3>
+                    Sarah Williams
+                </h3>
+
+                <p class="student-role">
+                    Content Writer
+                </p>
+
+                <div class="rating">
+                    ⭐ 4.8
+                    <span>(14 reviews)</span>
+                </div>
+
+                <p class="student-description">
+                    I write blog posts, website content,
+                    product descriptions and social media content.
+                </p>
+
+                <div class="skills">
+
+                    <span>Writing</span>
+                    <span>SEO</span>
+                    <span>Research</span>
+
+                </div>
+
+                <div class="student-bottom">
+
+                    <div>
+                        <small>Starting from</small>
+                        <strong>₦7,000</strong>
+                    </div>
+
+                    <button
+                        onclick="viewProfile('Sarah Williams')"
+                    >
+                        View Profile
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- STUDENT 6 -->
+
+            <div
+                class="student-card"
+                data-name="Daniel Peter"
+                data-skill="Tutoring"
+            >
+
+                <div class="student-avatar">
+                    DP
+                </div>
+
+                <div class="verified">
+                    ✓ Verified
+                </div>
+
+                <h3>
+                    Daniel Peter
+                </h3>
+
+                <p class="student-role">
+                    Academic Tutor
+                </p>
+
+                <div class="rating">
+                    ⭐ 5.0
+                    <span>(20 reviews)</span>
+                </div>
+
+                <p class="student-description">
+                    I provide tutoring in Mathematics,
+                    Economics and Accounting.
+                </p>
+
+                <div class="skills">
+
+                    <span>Economics</span>
+                    <span>Accounting</span>
+                    <span>Maths</span>
+
+                </div>
+
+                <div class="student-bottom">
+
+                    <div>
+                        <small>Starting from</small>
+                        <strong>₦5,000</strong>
+                    </div>
+
+                    <button
+                        onclick="viewProfile('Daniel Peter')"
+                    >
+                        View Profile
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="logo">
+        Skill<span>Bridge</span>
+    </div>
+
+    <p>
+        Connecting student talent with real opportunities.
+    </p>
+
+    <div>
+        © 2026 SkillBridge. All rights reserved.
+    </div>
+
+</footer>
+
+
+<script src="js/students.js"></script>
+
+</body>
+</html>
