@@ -1,122 +1,215 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="getstarted.html">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillBridge | Connect. Work. Grow.</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-  <title>SkillBridge NG</title>
 <body>
- <header>
-    <h1>SkillBridge NG</h1>
+
+<header class="navbar">
+    <div class="logo">
+        Skill<span>Bridge</span>
+    </div>
 
     <nav>
-      <a href="#">Home</a>
-      <a href="#services">Services</a>
-      <a href="#objectives">Objectives</a>
-      <a href="#contact">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="students.html">Find Skills</a>
+        <a href="#how-it-works">How It Works</a>
     </nav>
-  </header>
 
-  <section class="hero">
+    <div class="nav-buttons">
+        <a href="login.html" class="login-btn">Login</a>
+        <a href="register.html" class="primary-btn">Join SkillBridge</a>
+    </div>
+</header>
+
+<section class="hero">
+
     <div class="hero-content">
-      <h2>Connecting Skilled Nigerian Students With Opportunities</h2>
 
-      <p>
-        SkillBridge NG helps students earn income through their talents and
-        digital skills while providing affordable and reliable services to customers and businesses.
-      </p>
+        <div class="badge">
+            🚀 Empowering Student Talent
+        </div>
 
-      <a href="getstarted.html" class="btn">Get Started</a>
+        <h1>
+            Turn Your <span>Skills</span><br>
+            Into Opportunities.
+        </h1>
+
+        <p>
+            SkillBridge connects talented students with people and businesses
+            looking for affordable, reliable digital services.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="students.html" class="primary-btn">
+                Find a Skilled Student
+            </a>
+
+            <a href="register.html" class="secondary-btn">
+                Offer Your Skills
+            </a>
+        </div>
+
+        <div class="stats">
+
+            <div>
+                <strong>500+</strong>
+                <span>Student Talents</span>
+            </div>
+
+            <div>
+                <strong>20+</strong>
+                <span>Skill Categories</span>
+            </div>
+
+            <div>
+                <strong>100+</strong>
+                <span>Jobs Completed</span>
+            </div>
+
+        </div>
+
     </div>
-  </section>
 
-  <section id="services">
+    <div class="hero-card">
+
+        <div class="floating-card card-one">
+            💻 Web Developer
+            <small>Available for work</small>
+        </div>
+
+        <div class="floating-card card-two">
+            🎨 Graphic Designer
+            <small>4.9 ⭐ rating</small>
+        </div>
+
+        <div class="floating-card card-three">
+            📊 Data Analyst
+            <small>₦25,000 starting</small>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="categories">
+
     <div class="section-title">
-      <h2>Our Services</h2>
+        <span>EXPLORE TALENTS</span>
+        <h2>Find the right skill for your project</h2>
+        <p>Discover talented students ready to work with you.</p>
     </div>
 
-    <div class="services">
+    <div class="category-grid">
 
-      <div class="card">
-        <h3>Graphic Design</h3>
-        <p>
-          Creative branding, flyers, logos, and social media designs for businesses and individuals.
-        </p>
-      </div>
+        <a href="students.html?skill=Web Development" class="category-card">
+            <div>💻</div>
+            <h3>Web Development</h3>
+            <p>Websites & Web Apps</p>
+        </a>
 
-      <div class="card">
-        <h3>Web Development</h3>
-        <p>
-          Professional website design and development solutions for startups and businesses.
-        </p>
-      </div>
+        <a href="students.html?skill=Graphic Design" class="category-card">
+            <div>🎨</div>
+            <h3>Graphic Design</h3>
+            <p>Logos & Visual Designs</p>
+        </a>
 
-      <div class="card">
-        <h3>Video Editing</h3>
-        <p>
-          High-quality video editing services for content creators and organizations.
-        </p>
-      </div>
+        <a href="students.html?skill=Video Editing" class="category-card">
+            <div>🎬</div>
+            <h3>Video Editing</h3>
+            <p>Professional Video Content</p>
+        </a>
 
-      <div class="card">
-        <h3>Academic Tutoring</h3>
-        <p>
-          Helping students succeed academically through personalized tutoring services.
-        </p>
-      </div>
+        <a href="students.html?skill=Content Writing" class="category-card">
+            <div>✍️</div>
+            <h3>Content Writing</h3>
+            <p>Articles & Copywriting</p>
+        </a>
 
-      <div class="card">
-        <h3>Content Writing</h3>
-        <p>
-          Engaging and professional content creation for blogs, brands, and businesses.
-        </p>
-      </div>
+        <a href="students.html?skill=Data Analysis" class="category-card">
+            <div>📊</div>
+            <h3>Data Analysis</h3>
+            <p>Data & Research</p>
+        </a>
 
-      <div class="card">
-        <h3>Social Media Management</h3>
-        <p>
-          Managing and growing online presence for brands and entrepreneurs.
-        </p>
-      </div>
+        <a href="students.html?skill=Tutoring" class="category-card">
+            <div>📚</div>
+            <h3>Academic Tutoring</h3>
+            <p>Learn from skilled students</p>
+        </a>
 
     </div>
-  </section>
 
-  <section class="objectives" id="objectives">
+</section>
+
+
+<section id="how-it-works" class="how-section">
+
     <div class="section-title">
-      <h2>Our Objectives</h2>
+        <span>HOW IT WORKS</span>
+        <h2>Simple. Fast. Student-powered.</h2>
     </div>
 
-    <ul>
-      <li>Reduce unemployment among students.</li>
-      <li>Create a reliable platform for skill monetization.</li>
-      <li>Help students gain practical work experience.</li>
-      <li>Provide affordable digital services to customers.</li>
-      <li>Promote entrepreneurship and innovation among youths.</li>
-    </ul>
-  </section>
+    <div class="steps">
 
-  <section class="contact" id="contact">
-    <div class="section-title">
-      <h2>Contact Us</h2>
+        <div class="step">
+            <div class="step-number">01</div>
+            <h3>Find a Skill</h3>
+            <p>Search through talented students and find someone with the skills you need.</p>
+        </div>
+
+        <div class="step">
+            <div class="step-number">02</div>
+            <h3>Connect</h3>
+            <p>View their profile, portfolio and reviews, then contact them.</p>
+        </div>
+
+        <div class="step">
+            <div class="step-number">03</div>
+            <h3>Get the Job Done</h3>
+            <p>Work together and get your project completed professionally.</p>
+        </div>
+
     </div>
 
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea rows="6" placeholder="Your Message"></textarea>
+</section>
 
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
 
-  <footer>
-<p>© 2026 ACCOUNTING 300 LEVEL| Empowering Nigerian Students Through Digital Skills</p>
-  </footer>
+<section class="cta">
 
-</body>
-</html>
+    <h2>Have a skill people need?</h2>
+
+    <p>
+        Join SkillBridge and start turning your talent into income.
+    </p>
+
+    <a href="register.html" class="primary-btn">
+        Become a Skill Provider
+    </a>
+
+</section>
+
+
+<footer>
+
+    <div class="logo">
+        Skill<span>Bridge</span>
+    </div>
+
+    <p>Connecting student talent with real opportunities.</p>
+
+    <div>
+        © 2026 SkillBridge. All rights reserved.
+    </div>
+
+</footer>
+
+<script src="js/main.js"></script>
+
 </body>
 </html>
